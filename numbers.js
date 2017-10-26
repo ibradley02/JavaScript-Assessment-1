@@ -2,7 +2,13 @@
 var num10 = 10;
 var string8 = '8';
 var one = 1;
+var num8 = parseInt(string8, 10)
+var sum = num10 + one + num8
+console.log(sum)
 //2. write a loop that will log only numbers divisible by 3 between 20 - 100
+for (var i = 20; i <= 100; i++){
+    console.log(i)
+}
 
 
 
